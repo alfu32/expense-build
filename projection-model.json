@@ -1,0 +1,14 @@
+﻿{
+  "QSD": {
+    "name": "QSD",
+    "startDate": "2017-11-30T23:00:00.000Z",
+    "endDate": "2031-11-30T23:00:00.000Z",
+    "variation": 682.1193472965101,
+    "type": "LOAN",
+    "interest": 2,
+    "sum": 1000000,
+    "monthlyPayment": 6821.193472965101,
+    "paymentPlan": "VARIABLE",
+    "paymentPlanVariation": 10
+  }
+}
