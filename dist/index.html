@@ -334,11 +334,11 @@
 					<td>
 						<select ng-model="params.type" ng-change="changed(name,params)"><option value="PAYMENT">PAYMENT</option><option value="LOAN">LOAN</option></select>
 						<br ng-show="params.type=='LOAN'"/>
-						<select ng-model="params.paymentPlan" ng-change="changed(name,params)" ng-show="params.type=='LOAN'"><option value="FLAT">FLAT</option><option value="VARIABLE">VARIABLE</option></select>
+						<select ng-model="params.paymentPlan" ng-change="changed(name,params)" ng-show="params.type=='LOAN'"><option value="FLAT">FLAT</option><option value="VARIABLE">VARIABLE INSTALLMENTS</option></select>
 						<br ng-show="params.paymentPlan=='VARIABLE'"/>
 						<input class="two-digit-input" type="number" ng-model="params.paymentPlanVariation" ng-show="params.paymentPlan=='VARIABLE'" ng-change="changed(name,params)"/>%
 						<br ng-show="params.type=='LOAN'"/>
-						<select ng-model="params.interestVariationPlan" ng-change="changed(name,params)" ng-show="params.type=='LOAN'"><option value="FIX">FIX</option><option value="VARIABLE">VARIABLE</option></select>
+						<select ng-model="params.interestVariationPlan" ng-change="changed(name,params)" ng-show="params.type=='LOAN'"><option value="FIX">FIX</option><option value="VARIABLE">VARIABLE INTEREST RATE</option></select>
 						<div ng-show="params.interestVariationPlan=='VARIABLE'">
 							<input class="two-digit-input" type="number" ng-model="params.interestVariationFirst"
 								ng-change="changed(name,params)"/>/
@@ -372,11 +372,11 @@
 					<td>
 						<select ng-model="newPayment.type" ng-change="normalizeModel(newPayment)"><option value="PAYMENT">PAYMENT</option><option value="LOAN">LOAN</option></select>
 						<br ng-show="newPayment.type=='LOAN'"/>
-						<select ng-model="newPayment.paymentPlan" ng-change="normalizeModel(newPayment)" ng-show="newPayment.type=='LOAN'"><option value="FLAT">FLAT</option><option value="VARIABLE">VARIABLE</option></select>
+						<select ng-model="newPayment.paymentPlan" ng-change="normalizeModel(newPayment)" ng-show="newPayment.type=='LOAN'"><option value="FLAT">FLAT</option><option value="VARIABLE">VARIABLE INSTALLMENTS</option></select>
 						<br ng-show="newPayment.paymentPlan=='VARIABLE'"/>
 						<input class="two-digit-input" type="number" ng-model="newPayment.paymentPlanVariation" ng-show="newPayment.paymentPlan=='VARIABLE'" ng-change="normalizeModel(newPayment)"/>%
 						<br ng-show="newPayment.type=='LOAN'"/>
-						<select ng-model="newPayment.interestVariationPlan" ng-change="normalizeModel(newPayment)" ng-show="newPayment.type=='LOAN'"><option value="FIX">FIX</option><option value="VARIABLE">VARIABLE</option></select>
+						<select ng-model="newPayment.interestVariationPlan" ng-change="normalizeModel(newPayment)" ng-show="newPayment.type=='LOAN'"><option value="FIX">FIX</option><option value="VARIABLE">VARIABLE INTEREST RATE</option></select>
 						<div ng-show="newPayment.interestVariationPlan=='VARIABLE'">
 							<input class="two-digit-input" type="number" ng-model="newPayment.interestVariationFirst"
 								ng-change="normalizeModel(newPayment)"/>/

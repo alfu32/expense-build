@@ -3,13 +3,13 @@
     "name": "CAR",
     "startDate": "2017-11-30T23:00:00.000Z",
     "endDate": "2023-11-30T23:00:00.000Z",
-    "variation": -53.82909193902398,
+    "variation": -53.5141219783464,
     "type": "LOAN",
-    "interest": 10,
-    "sum": 42000,
-    "monthlyPayment": 768.9870277003427,
+    "interest": 4.5,
+    "sum": 26000,
+    "monthlyPayment": 411.64709214112617,
     "paymentPlan": "VARIABLE",
-    "paymentPlanVariation": -7,
+    "paymentPlanVariation": -13,
     "interestVariationPlan": "FIX"
   },
   "HOUSE": {
@@ -22,8 +22,11 @@
     "sum": 260000,
     "monthlyPayment": 1118.4357015244568,
     "paymentPlan": "VARIABLE",
-    "interestVariationPlan": "FIX",
-    "paymentPlanVariation": 20
+    "interestVariationPlan": "VARIABLE",
+    "paymentPlanVariation": 20,
+    "interestVariationFirst": 5,
+    "interestVariationNext": 5,
+    "interestVariationCap": 5
   },
   "ASRD": {
     "name": "ASRD",
