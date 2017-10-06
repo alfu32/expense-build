@@ -1,5 +1,5 @@
 ﻿{
-  "QSD": {
+  "CAR": {
     "name": "CAR",
     "startDate": "2017-11-30T23:00:00.000Z",
     "endDate": "2023-11-30T23:00:00.000Z",
@@ -12,7 +12,7 @@
     "paymentPlanVariation": -7,
     "interestVariationPlan": "FIX"
   },
-  "ASD": {
+  "HOUSE": {
     "name": "HOUSE",
     "startDate": "2017-11-30T23:00:00.000Z",
     "endDate": "2042-11-30T23:00:00.000Z",
