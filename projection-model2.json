@@ -1,13 +1,13 @@
 ﻿{
   "CAR": {
     "name": "CAR",
-    "startDate": "2017-11-30T23:00:00.000Z",
-    "endDate": "2023-11-30T23:00:00.000Z",
-    "variation": -53.5141219783464,
+    "startDate": "2016-03-31T22:00:00.000Z",
+    "endDate": "2020-03-31T22:00:00.000Z",
+    "variation": -76.93854774273363,
     "type": "LOAN",
     "interest": 4.5,
     "sum": 26000,
-    "monthlyPayment": 411.64709214112617,
+    "monthlyPayment": 591.8349826364125,
     "paymentPlan": "VARIABLE",
     "paymentPlanVariation": -13,
     "interestVariationPlan": "FIX"
@@ -37,5 +37,16 @@
     "interest": 0,
     "sum": 34560,
     "monthlyPayment": 180
+  },
+  "REV-50%": {
+    "name": "REV-50%",
+    "startDate": "2017-11-30T23:00:00.000Z",
+    "endDate": "2042-11-30T23:00:00.000Z",
+    "variation": 0,
+    "type": "PAYMENT",
+    "interest": 0,
+    "sum": 480000,
+    "monthlyPayment": 1600,
+    "ignore": true
   }
 }
